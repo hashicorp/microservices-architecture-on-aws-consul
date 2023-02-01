@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 variable "tfc_organization" {
   description = "Name of the Terraform Cloud Organization. Set in TFC Workspace Variables."
   type = string

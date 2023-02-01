@@ -1,3 +1,6 @@
+# Copyright (c) HashiCorp, Inc.
+# SPDX-License-Identifier: MPL-2.0
+
 resource "consul_config_entry" "service_splitter_fruits" {
   kind = "service-splitter"
   name = "${data.tfe_outputs.workspace.values.project_tag}-fruits"
